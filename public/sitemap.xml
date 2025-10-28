@@ -4,35 +4,35 @@
   
     
       <url>
-            <loc>http://localhost:1313/zestypitz/posts/</loc>
+            <loc>http://localhost:1313/posts/</loc>
             <lastmod>2025-10-28T16:09:52-07:00</lastmod>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/zestypitz/posts/release-notes/</loc>
+            <loc>http://localhost:1313/posts/release-notes/</loc>
             <lastmod>2025-10-28T16:09:52-07:00</lastmod>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/zestypitz/</loc>
+            <loc>http://localhost:1313/</loc>
             <lastmod>2025-10-28T16:09:52-07:00</lastmod>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/zestypitz/posts/set-up-github-page/</loc>
+            <loc>http://localhost:1313/posts/set-up-github-page/</loc>
             <lastmod>2025-10-28T14:37:52-07:00</lastmod>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/zestypitz/posts/initialize-repo/</loc>
+            <loc>http://localhost:1313/posts/initialize-repo/</loc>
             <lastmod>2025-10-28T14:36:59-07:00</lastmod>
           </url>
     
