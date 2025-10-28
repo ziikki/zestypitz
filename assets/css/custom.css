@@ -1,0 +1,10 @@
+/* Aligns the homepage content to the left */
+.prose {
+    text-align: left;
+}
+
+/* Styles for release note dates */
+.release-date {
+    color: #888; /* A nice, soft grey */
+    font-size: 0.8em; /* A bit smaller than the surrounding text */
+}
