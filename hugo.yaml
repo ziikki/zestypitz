@@ -1,0 +1,80 @@
+baseURL: https://ziikki.github.io/zestypitz/
+languageCode: en-us
+title: Solareda
+theme: PaperMod
+
+params:
+  env: production
+  description: My Developer Site
+  author: Solareda
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+  profileMode:
+    enabled: false
+    title: Repitz
+    subtitle: Manage repating events, Keep things on Track!
+    imageUrl: "/transparent_icon.png"
+    # imageWidth: 120
+    # imageHeight: 120
+    imageTitle: Solareda Logo
+
+  homeInfoParams:
+    Title: "Repitz"
+    Content: |
+      🥳🥳🥳 Thanks for using the Repitz App! 🥳🥳🥳
+
+      Use **Repitz** to
+
+        - ➿ Manage repeating goals: monthly medication, weekly gym, etc.
+        - 🎈 Keep track of  Birthdays 🎂,  Anniversaries 🎉, and other important dates 
+        - 🔍 Anything that repeats!
+      ------
+      Buy me a [coffee ☕](https://buymeacoffee.com/solareda) if you like it! 💖
+
+  socialIcons:
+    - name: buymeacoffee
+      url: https://buymeacoffee.com/solareda
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: false
+  highlight:
+    noClasses: false
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 20
+    # - identifier: archives
+    #   name: Archives
+    #   url: /archives/
+    #   weight: 30
+    # - identifier: search
+    #   name: Search
+    #   url: /search/
+    #   weight: 40
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON

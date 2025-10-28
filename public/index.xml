@@ -1,11 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Zesty Pitz</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Zesty Pitz</description>
+    <title>Solareda</title>
+    <link>http://localhost:1313/zestypitz/</link>
+    <description>Recent content on Solareda</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Oct 2025 14:37:52 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/zestypitz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Deploy a Hugo Site to GitHub Pages</title>
+      <link>http://localhost:1313/zestypitz/posts/set-up-github-page/</link>
+      <pubDate>Tue, 28 Oct 2025 14:37:52 -0700</pubDate>
+      <guid>http://localhost:1313/zestypitz/posts/set-up-github-page/</guid>
+      <description>&lt;p&gt;So you&amp;rsquo;ve cloned a Hugo repository. Great! This guide will walk you through the two main phases: running the site on your local machine for development, and then setting up automated deployment to a live server using GitHub Pages.&lt;/p&gt;
+&lt;h2 id=&#34;1-running-your-hugo-site-locally&#34;&gt;1. Running Your Hugo Site Locally&lt;/h2&gt;
+&lt;p&gt;Before deploying, you&amp;rsquo;ll want to run the site on your own computer. This lets you preview changes in real-time. The repository you cloned is just the source code; you need the Hugo software to build and serve it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Initialize Hugo Repot</title>
+      <link>http://localhost:1313/zestypitz/posts/initialize-repo/</link>
+      <pubDate>Tue, 28 Oct 2025 14:36:59 -0700</pubDate>
+      <guid>http://localhost:1313/zestypitz/posts/initialize-repo/</guid>
+      <description>&lt;h2 id=&#34;how-to-initialize-hugo-repo&#34;&gt;How to Initialize Hugo Repo&lt;/h2&gt;
+&lt;p&gt;This guide documents the steps to set up a Hugo site with the PaperMod theme from scratch.&lt;/p&gt;
+&lt;h3 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;macOS (or Linux/Windows with appropriate package manager)&lt;/li&gt;
+&lt;li&gt;Git installed&lt;/li&gt;
+&lt;li&gt;Terminal/Command line access&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;step-1-install-hugo&#34;&gt;Step 1: Install Hugo&lt;/h3&gt;
+&lt;p&gt;On macOS, install Hugo using Homebrew:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;brew install hugo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Verify the installation:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo version
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;step-2-initialize-hugo-site&#34;&gt;Step 2: Initialize Hugo Site&lt;/h3&gt;
+&lt;p&gt;Navigate to your project directory and initialize a new Hugo site:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; /path/to/your/project
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo new site . --force
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The &lt;code&gt;--force&lt;/code&gt; flag allows Hugo to initialize in a non-empty directory (if you already have files like README.md or .git).&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
