@@ -1,4 +1,4 @@
-baseURL = 'https://solareda.com/'
+baseURL = "https://ziikki.github.io/zestypitz/"
 languageCode = 'en-us'
 title = 'Zesty Pitz'
 theme = 'PaperMod'

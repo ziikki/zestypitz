@@ -1,7 +1,7 @@
 +++
 date = '2025-10-28T14:36:59-07:00'
 draft = true
-title = 'My First Post'
+title = 'Initialize Hugo Repot'
 +++
 
 ## How to Initialize Hugo Repo
