@@ -11,8 +11,8 @@ markup:
 
 params:
   author:
-    name: Repitz
-    image: /transparent_icon.png
+    name: Solareda
+    image: /zikki.png
   homepage:
     layout: profile
     showRecent: true
@@ -32,6 +32,10 @@ menu:
       name: Posts
       url: /posts/
       weight: 20
+    - identifier: repitz
+      name: Repitz
+      url: /repitz/
+      weight: 30
   # footer:
   #   - name: home
   #     url: /
